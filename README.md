@@ -5,3 +5,6 @@ https://velog.io/@ililil9482/vite%EB%A1%9C-vue-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8
 
 ### Vue 이해하기 [1] 구성
 https://velog.io/@ililil9482/vue-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0
+
+### Vue 이해하기 [2] v-문법
+https://velog.io/@ililil9482/Vue-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-2-template
