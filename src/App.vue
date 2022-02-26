@@ -1,13 +1,11 @@
 <template>
-  <div>{{test}}</div>
-  <input v-model="test" />
-  <img v-bind:src="imageSource" />
-  <a v-bind:href='naverUrl'>naver1</a>
-  <a :href='naverUrl'>naver2</a>
-  
-  <hr/>
-  <input v-model="food" />
-  <h2 v-bind:class="{orange: food==='apple', 'not-good' : food==='rice'}">나는 오렌지색 {{food}}</h2>
+  <div>
+    <h2 v-for="(user, idx) in users" :key="idx">이름 : {{ user.name }} 직업 : {{ user.job }} - {{ idx }}
+      <ul>
+        <li v-for="(o, idx) in user.hobby" :key="idx">{{ o }}</li>
+      </ul>
+    </h2>
+  </div>
 </template>
 
 <script>
@@ -15,26 +13,9 @@ export default {
   name: 'App',
   data(){
     return {
-      test : 'test입니다.2',
-      food : 'apple',
-      imageSource : 'https://placeimg.com/100/100/any',
-      naverUrl : 'https://naver.com'
+      arr : ["obj1","obj2","obj3"],
+      users : [{name:'tester', job:'programmer', hobby:['축구','농구','야구']},{name:'tester2', job:'doctoer', hobby:['책읽기','드라이브','여행']}]
     }
   }
 }
 </script>
-
-<style>
-.orange{
-  color:orange;
-}
-.salmon{
-  color: salmon;
-}
-.red{
-  color:red;
-}
-.not-good{
-  text-decoration: line-through;
-}
-</style>
