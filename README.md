@@ -8,3 +8,6 @@ https://velog.io/@ililil9482/vue-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0
 
 ### Vue 이해하기 [2] v-문법
 https://velog.io/@ililil9482/Vue-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-2-template
+
+### Vue 이해하기 [3] v-if, v-show, v-for
+https://velog.io/@ililil9482/Vue-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-3-v-if-v-show-v-for
