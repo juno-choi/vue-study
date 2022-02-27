@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2>count = {{ count }}</h2>
-    <button @click="addCount">증가</button>
+    <h2>key Code = {{ key }}</h2>
+    <input type="text" @keydown="keyDownValue($event)">
   </div>
 </template>
 
@@ -10,12 +10,13 @@ export default {
   name: 'App',
   data(){
     return {
-      count : 0
+      key : ''
     }
   },
   methods:{
-    addCount(){
-      this.count++;
+    keyDownValue(event){
+      console.log(event);
+      this.key = event.keyCode;
     }
   }
 }

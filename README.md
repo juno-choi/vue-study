@@ -11,3 +11,6 @@ https://velog.io/@ililil9482/Vue-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-2-template
 
 ### Vue 이해하기 [3] v-if, v-show, v-for
 https://velog.io/@ililil9482/Vue-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-3-v-if-v-show-v-for
+
+### Vue 이해하기 [4] methods, Event
+https://velog.io/@ililil9482/Vue-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-4-methods-Event
