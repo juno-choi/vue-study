@@ -1,23 +1,20 @@
 <template>
-  <div>
-    <h2>key Code = {{ key }}</h2>
-    <input type="text" @keydown="keyDownValue($event)">
+  <div>헤더</div>
+  <div id="app">
+    <Header />
+    <div id="content" class="content">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
+import Header from './components/template/header.vue';
+
 export default {
   name: 'App',
-  data(){
-    return {
-      key : ''
-    }
-  },
-  methods:{
-    keyDownValue(event){
-      console.log(event);
-      this.key = event.keyCode;
-    }
+  components: {
+    Header
   }
 }
 </script>
